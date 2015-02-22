@@ -1,4 +1,4 @@
-## makeCacheMatrix function sets up the environment to store input matrix "x" along with it's inverse "x_inv"
+## makeCacheMatrix function sets up the environment to store and retrieve input matrix "x" along with it's inverse "x_inv"
 ## This function returns list of functions that can be subset and accessed by follow-on function, cacheSolve
 
 makeCacheMatrix <- function(x = matrix()) {
